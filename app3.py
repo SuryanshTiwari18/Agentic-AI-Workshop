@@ -6,8 +6,12 @@ from google.genai.types import (
     Part,
     Content, 
 )
+from dotenv import load_dotenv
 
-client = genai.Client(api_key="AIzaSyDHx3MgIx9eCfeA0SpQ7jw07YVrK_y0Ov8")
+# 1. Load your credentials
+load_dotenv()
+
+client = genai.Client(api_key=os.environ.get("API_KEY"))
 
 # Tool implementation
 def calculator(a: float, b: float, operation: str):
