@@ -1,0 +1,28 @@
+Goal:
+Schedule an interview and notify candidates
+
+Planner:
+1. Collect candidates details
+2. Check availability of the candidates
+3. Schedule the interview
+4. Send a notification to the candidates (e.g., greeting the candidates and inviting them to join the interview or meeting)
+
+Tool needed:
+1. Calendar tool 
+2. Notification tool
+3. .....
+
+Executor:
+1. Which steps needs tool
+2. Which are pure reasoning
+
+Memory & Failure:
+1. what data must persist.
+2. What if slot is unavailable
+3. what if email fails
+4. Old dates
+
+Ai study Planner
+Ai expense tracker
+Ai customer support agent
+Ai code reviewer
